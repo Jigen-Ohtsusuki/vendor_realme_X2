@@ -21116,3 +21116,12 @@ install_symlink {
     installed_location: "lib64/libq3dtools_adreno.so",
     symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
 }
+
+prebuilt_rfsa {
+    name: "fastrpc_shell_3",
+    filename: "fastrpc_shell_3",
+    owner: "realme",
+    src: "proprietary/vendor/lib/rfsa/adsp/fastrpc_shell_3",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
